@@ -112,7 +112,7 @@ class Shimaenaga():
                 self.energy = 100
         else:
             print(f'{self.name} is hungry but does not have food :(')
-            self.hunt('insects')
+            self.hunt()
 
     def drink(self):
         if random.random() < 0.1:
